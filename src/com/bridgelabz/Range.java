@@ -33,6 +33,6 @@ public class Range {
         int a = s.nextInt();
         System.out.print("Number 2 : ");
         int b = s.nextInt();
-        primeInRange(a,b);
+        primeInRange(a,b) ;
     }
 }
