@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MagicNumber {
     public static void main(String[] args) {
         int result=0;
-        int smallestNumber = 0;
+        int smallestNumber = 0 ;
         int biggestNumber =100;
         Scanner scanner = new Scanner(System.in);
         do {
