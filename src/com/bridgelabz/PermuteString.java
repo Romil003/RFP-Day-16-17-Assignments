@@ -8,7 +8,7 @@ public class PermuteString {
             ch = b[i];
             b[i] = b[j];
             b[j] = ch;
-            return String.valueOf(b);
+            return String.valueOf(b) ;
         }
 
     public static void generatePermutation(String str, int start, int end)
