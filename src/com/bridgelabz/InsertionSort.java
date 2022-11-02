@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class InsertionSort {
 
     void insertionSort(String[] array) {
-        int size = array.length;
+        int size = array.length ;
 
         for (int step = 1; step < size; step++) {
             String key = array[step];
