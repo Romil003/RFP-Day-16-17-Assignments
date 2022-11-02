@@ -25,7 +25,7 @@ class LinkedList1 {
     public Node1 search(int data) {
         Node1 temp = head;
         if (head == null) {
-            return null;
+            return null ;
         }
         while (temp != null) {
             if (temp.data == data) {
